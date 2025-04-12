@@ -5,11 +5,13 @@ Welcome to the official repository for the  [MOS: Modeling Object-Scene Associat
 **Important Note:**  
 The code is currently under organization, and we commit to open-sourcing it before 2025.5.1. If you require immediate access, please contact us directly at: pengzhengyuan@sjtu.edu.cn.
 
+## Running
 
-## Overview
+### Dependencies
 
-This repository contains the code implementation for MOS.
-
+```
+pip install -r requirements.txt
+```
 
 ## Contact
 
