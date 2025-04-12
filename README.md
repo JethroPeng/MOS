@@ -45,6 +45,10 @@ Please note that in the `.sh` file, you need to specify the root directory of th
 
 You can contact pengzhengyuan@sjtu.edu.cn to obtain logs and checkpoints from multiple experiments for any dataset. Feel free to reach out.
 
+## Note
+
+Please note that we have commented out the last norm layer in the DINO backbone.
+
 ## Citing this work
 
 If you find this repo useful for your research, please consider citing our paper:
