@@ -41,6 +41,10 @@ bash scripts/run_${DATASET_NAME}.sh
 ```
 Please note that in the `.sh` file, you need to specify the root directory of the dataset.
 
+### Checkpoints
+
+You can contact pengzhengyuan@sjtu.edu.cn to obtain logs and checkpoints from multiple experiments for any dataset. Feel free to reach out.
+
 ## Citing this work
 
 If you find this repo useful for your research, please consider citing our paper:
