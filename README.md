@@ -20,6 +20,14 @@ The code is currently under organization, and we commit to open-sourcing it befo
 pip install -r requirements.txt
 ```
 
+### Scripts
+
+**Train the model**:
+
+```
+bash scripts/run_${DATASET_NAME}.sh
+```
+
 ### Datasets
 
 We use fine-grained benchmarks in this paper, including:
