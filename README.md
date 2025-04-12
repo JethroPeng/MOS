@@ -7,11 +7,6 @@
 
 Welcome to the official repository for the  [MOS: Modeling Object-Scene Associations in Generalized Category Discovery](https://arxiv.org/abs/2503.12035) project!
 
-
-
-**Important Note:**  
-The code is currently under organization, and we commit to open-sourcing it before 2025.5.1. If you require immediate access, please contact us directly at: pengzhengyuan@sjtu.edu.cn.
-
 ## Running
 
 ### Dependencies
@@ -20,11 +15,22 @@ The code is currently under organization, and we commit to open-sourcing it befo
 pip install -r requirements.txt
 ```
 
+We recommend using the same configuration as ours: Python 3.8, CUDA > 12, and torch 2.3.1.
+
 ### Datasets
 
 We use fine-grained benchmarks in this paper, including:
 
 * [The Semantic Shift Benchmark (SSB)](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+
+In addition, we need to extract the mask for each image (where pixel value 255 represents the object and 0 represents the scene). Please follow the [IS-Net](https://github.com/danielgatis/rembg) for this process (model is isnet-general-use). Alternatively, you can use the pre-processed masks that we have already prepared. The Google Drive link is [link](https://drive.google.com/drive/folders/1sNVgc-iuxMTM7iP5tCppTwMrXbTObxq3?usp=drive_link).
+
+The placement of the mask foler is as follows:
+
+- For **cub**: your_path/cub/masks
+- For **stanford_car**: your_path/stanford_car/cars_train_mask and your_path/stanford_car/cars_test_mask
+- For **aircraft**: your_path/fgvc-aircraft-2013b/data/masks
+- For **oxford-pet**: your_path/Oxford-pet/data/masks
 
 ### Scripts
 
@@ -33,6 +39,7 @@ We use fine-grained benchmarks in this paper, including:
 ```
 bash scripts/run_${DATASET_NAME}.sh
 ```
+Please note that in the `.sh` file, you need to specify the root directory of the dataset.
 
 ## Citing this work
 
