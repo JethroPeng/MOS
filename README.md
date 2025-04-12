@@ -41,7 +41,7 @@ If you find this repo useful for your research, please consider citing our paper
 
 ## Acknowledgements
 
-The codebase is largely built on this repo: [https://github.com/sgvaze/generalized-category-discovery](https://github.com/CVMI-Lab/SimGCD?tab=readme-ov-file).
+The codebase is largely built on this repo: [SimGCD](https://github.com/CVMI-Lab/SimGCD?tab=readme-ov-file).
 
 ## Contact
 
