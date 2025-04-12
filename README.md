@@ -20,6 +20,12 @@ The code is currently under organization, and we commit to open-sourcing it befo
 pip install -r requirements.txt
 ```
 
+### Datasets
+
+We use fine-grained benchmarks in this paper, including:
+
+* [The Semantic Shift Benchmark (SSB)](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+
 ### Scripts
 
 **Train the model**:
@@ -27,12 +33,6 @@ pip install -r requirements.txt
 ```
 bash scripts/run_${DATASET_NAME}.sh
 ```
-
-### Datasets
-
-We use fine-grained benchmarks in this paper, including:
-
-* [The Semantic Shift Benchmark (SSB)](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb) and [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 
 ## Citing this work
 
