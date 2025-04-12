@@ -39,7 +39,7 @@ The placement of the mask foler is as follows:
 ```
 bash scripts/run_${DATASET_NAME}.sh
 ```
-Please note that in the `.sh` file, you need to specify the root directory of the dataset.
+Please note that in the `.sh` file, you need to specify the root directory of the dataset and DINO weight.
 
 ### Checkpoints
 
