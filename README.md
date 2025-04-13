@@ -54,10 +54,10 @@ Please note that we have commented out the last norm layer in the DINO backbone.
 If you find this repo useful for your research, please consider citing our paper:
 
 ```
-@article{peng2025mos,
+@inproceedings{peng2025mos,
   title={MOS: Modeling Object-Scene Associations in Generalized Category Discovery},
   author={Peng, Zhengyuan and Ma, Jinpeng and Sun, Zhimin and Yi, Ran and Song, Haichuan and Tan, Xin and Ma, Lizhuang},
-  journal={arXiv preprint arXiv:2503.12035},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2025}
 }
 ```
